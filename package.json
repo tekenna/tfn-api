@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "exquisite sound pro api server",
+  "main": "index.js",
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "firebase deploy --only functions:api"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@getbrevo/brevo": "^1.0.1",
+    "@google-cloud/translate": "^8.0.1",
+    "axios": "^1.5.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.12.0",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.20",
+    "openai": "^4.4.0",
+    "readline-sync": "^1.4.10"
+  }
+}
